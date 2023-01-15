@@ -44,12 +44,13 @@ El unico que no aplica es que el usuario hace focus directamente el nuevo conten
 # R07.
 **La pàgina té una puntuació de 100 en la categoria de Accessibility de Lighthouse**
 En el **reportelighthouse2.html**, puedes comprobar que ha dado la puntuacion de 100.
-# R08.
-**La pàgina té una puntuació de 100 en la categoria de Best Practices de Lighthouse**
-No obtiene la puntuacion de 100, ya que creo que es un falso positivo, exactamente es por las imagenes, ya que nos las tengo en local, hago un src a una web externa y esto hace que haya errores de cookies SameSite.
-# R09. 
+
+# R08. 
 **La pàgina és usable només amb teclat**
 La web es perfectamente usable con teclado, (Flechas de direccion, tabulador)
+# R09. 
+**La pàgina és semàntica (usable amb tecnologies asistives com lectors de pantalla)**
+  Si. añadido arial label a partes importantes del codigo
 # R10. 
 **La pàgina és usable en qualsevol dispositiu i resolució (responsive)**
 La pagina es usable en navegador de escritorio y en navegador de movil. Tambien es responsive.
